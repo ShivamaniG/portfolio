@@ -611,19 +611,18 @@
             <p class="section_text_p1">Get In Touch</p>
             <h1 class="title">Contact Me</h1>
             <div class="row mt-3 justify-content-center">
-                <div class="col-md-5 col-12 mb-2"> <!-- Added col-12 for better mobile layout -->
-                    <div class="contact-card color-container">
-                        <!-- <a href="mailto:shivamanigangarapu@example.com" class="contact-email">shivamanigangarapu@example.com</a> -->
-                        <div class="social-link mt-3">
-                            <a href="mailto:shivamanigangarapu@example.com" class="contact-email">
-                                <i class="fas fa-envelope"></i> shivamanigangarapu@example.com
-                            </a>
-                        </div>
-                        <div class="social-link mt-3">
-                            <a href="https://www.linkedin.com/in/your-linkedin-profile" class="contact-linkedin">
-                                <i class="fab fa-linkedin"></i> LinkedIn
-                            </a>
-                        </div>
+                <div class="contact-card color-container hide-on-mobile bg-white">
+                    <!-- <a href="mailto:shivamanigangarapu@example.com" class="contact-email">shivamanigangarapu@example.com</a> -->
+                    <div class="social-link mt-3 ">
+                        <a href="mailto:shivamanigangarapu@example.com" class="contact-email"
+                            style="text-align: center;">
+                            <i class="fas fa-envelope "></i> shivamanigangarapu@example.com
+                        </a>
+                    </div>
+                    <div class="social-link mt-3">
+                        <a href="https://www.linkedin.com/in/your-linkedin-profile" class="contact-linkedin">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
                     </div>
                 </div>
             </div>
@@ -669,6 +668,10 @@
             @media (max-width: 768px) {
                 .contact-card {
                     padding: 1.5rem;
+                }
+
+                .hide-on-mobile {
+                    border: none;
                 }
 
                 .contact-email,
